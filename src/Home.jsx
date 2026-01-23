@@ -117,7 +117,7 @@ function Home() {
                             <p className="text-gray-600 mt-1">{food.price}</p>
 
                             <button
-                                className="mt-4 w-full cursor-pointer bg-blue-500 text-white py-2 rounded hover:bg-green-600"
+                                className="mt-4 w-full cursor-pointer bg-green-500 text-white py-2 rounded hover:bg-green-600"
                                 onClick={() => placeOrder(food)}
                             >Order Now</button>
                         </div>

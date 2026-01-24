@@ -52,12 +52,6 @@ const foods = [
         price: "$6",
         image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
-    {
-        id: 9,
-        name: "Chicken karahi",
-        price: "$30",
-        image: "https://images.immediate.co.uk/production/volatile/sites/30/2024/12/Chicken-Karahi-847828f.jpg"
-    }
 ];
 
 function Home() {

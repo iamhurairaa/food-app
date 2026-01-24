@@ -33,7 +33,7 @@ function Cart() {
 
               <button
                 onClick={() => removeFromCart(index)}
-                className="bg-green-500 cursor-pointer hover:bg-red-700 text-white px-3 py-1 rounded"
+                className="bg-red-600 cursor-pointer hover:bg-red-700 text-white px-3 py-1 rounded"
               >
                 Remove
               </button>

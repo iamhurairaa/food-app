@@ -102,7 +102,7 @@ function Home() {
 
             <h1 className="text-3xl font-bold text-center pt-3 mb-8">🍔 Food Menu</h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 p-2 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-15 gap-6">
 
                 {filterFoods.map((food) => (
                     <div
@@ -129,6 +129,11 @@ function Home() {
                         </div>
                     </div>
                 ))}
+
+            </div>
+
+            <div>
+                <p className="text-center py-8 pt-18 font-light -tracking-tighter">©2025 <span className="font-medium">Foody-Zone.</span> All rights reserved</p>
 
             </div>
 
